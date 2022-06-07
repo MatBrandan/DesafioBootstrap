@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    background-image: url(../img/fondo_bd.jpg);
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+h1{
+    background-image: url(../img/fondo.jpg);
+    padding: 20px;
+}
+
+.container-fluid{
+    background: rgb(212,163,115);
+    background: linear-gradient(0deg, rgba(212,163,115,1) 0%, rgba(254,250,224,1) 100%); ;
+}
+.tarjeta_main{
+    background: rgb(204,213,174);
+    background: linear-gradient(94deg, rgba(204,213,174,1) 0%, rgba(233,237,201,1) 55%, rgba(254,250,224,1) 100%);
+    border:solid 5px #D4A373;
+    border-radius: 20px;
+    padding: 30px;
+    -webkit-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+}
+.tarjeta_main img{
+    border-radius: 20px;
+}
+.tarjeta_data{
+    background: rgb(204,213,174);
+    background: linear-gradient(270deg, rgba(204,213,174,1) 0%, rgba(233,237,201,1) 55%, rgba(254,250,224,1) 100%);
+    border:solid 5px #D4A373;
+    border-radius: 20px;
+    padding: 2rem;
+    -webkit-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+}
+.tarjeta_data img{
+    border-radius: 20px;
+}
+.carousel-control-prev{
+    filter:drop-shadow(2px 1px rgb(0, 0, 0))
+}
+.carousel-control-next{
+    filter:drop-shadow(2px 1px rgb(0, 0, 0))
+}
+.carousel-indicators{
+    filter:drop-shadow(2px 1px rgb(0, 0, 0))
+}
+.card {
+    height:500px;
+    -webkit-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 6px 20px 0px rgba(0,0,0,0.75);  
+} 
+.card img{
+    height: 320px;
+}
+.card-body{
+    background-color: #E9EDC9;
+}
+.footer{
+    background-color: #D4A373 ;
+}
+.accordion-button{
+    background-color: #CCD5AE;
+}
+.accordion-body{
+    background-color: #FEFAE0;
+}
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: #E9EDC9;
+}
